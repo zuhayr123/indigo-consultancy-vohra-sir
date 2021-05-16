@@ -12,3 +12,14 @@ hamburger.addEventListener('click', ()=>{
     //Hamburger Animation
     hamburger.classList.toggle("toggle");
 });
+
+$(document).ready(function() {
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop() >= 20) {
+        $(".navbar").removeClass("compressed");
+      } else {
+        $(".navbar").addClass("compressed");
+      }
+    });
+  });
+  

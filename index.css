@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  color: #f2f5f7;
+  color: #191919;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
@@ -9,14 +9,22 @@
 body{
   overflow-x: hidden;
 }
-nav{
+.navbar{
   height: 6rem;
   width: 100vw;
-  background-color: #131418;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  background-color: #6dcc7c;
   display: flex;
   position: fixed;
+  transition: all 0.3s;
   z-index: 10;
+}
+
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f6f2ef;
+  color: #f6f2ef;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 /*Styling logo*/
@@ -35,16 +43,17 @@ nav{
   list-style: none; 
   width: 88vw;
   padding: 0 0.7vw;
-  justify-content: space-evenly;
+  justify-content: right;
   align-items: center;
   text-transform: uppercase;
 }
+
 .nav-links li a{
   text-decoration: none;
   margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-  color: #61DAFB;
+  color: #687a61;
 }
 .nav-links li {
   position: relative;
@@ -54,7 +63,7 @@ nav{
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #61DAFB;
+  background-color: #687a61;
   position: absolute;
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
@@ -66,7 +75,7 @@ nav{
 /*Styling Buttons*/
 .login-button{
   background-color: transparent;
-  border: 1.5px solid #f2f5f7;
+  border: 1.5px solid #191919;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   margin-left: 2vw;
@@ -75,24 +84,24 @@ nav{
 
 }
 .login-button:hover {
-  color: #131418;
-  background-color: #f2f5f7;
-  border:1.5px solid #f2f5f7;
+  color: #f6f2ef;
+  background-color: #191919;
+  border:1.5px solid #191919;
   transition: all ease-in-out 350ms;
 }
 .join-button{
-  color: #131418;
-  background-color: #61DAFB;
-  border: 1.5px solid #61DAFB;
+  color: #f6f2ef;
+  background-color: #687a61;
+  border: 1.5px solid #687a61;
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   font-size: 1rem;
   cursor: pointer;
 }
 .join-button:hover {
-  color: #f2f5f7;
+  color: #191919;
   background-color: transparent;
-  border:1.5px solid #f2f5f7;
+  border:1.5px solid #191919;
   transition: all ease-in-out 350ms;
 }
 
@@ -100,7 +109,7 @@ nav{
 .hamburger div{
   width: 30px;
   height:3px;
-  background: #f2f5f7;
+  background: #191919;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -126,14 +135,30 @@ nav{
   }
   .nav-links{
       position: fixed;
-      background: #131418;
+      background: #687a61;
       height: 100vh;
       width: 100%;
+      justify-content: space-evenly;
       flex-direction: column;
       clip-path: circle(50px at 90% -20%);
       -webkit-clip-path: circle(50px at 90% -10%);
       transition: all 1s ease-out;
       pointer-events: none;
+  }
+
+  .nav-links li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #f6f2ef;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+  }
+
+  .nav-links li a:hover {
+    color: #f6f2ef;
   }
   .nav-links.open{
       clip-path: circle(1000px at 90% -10%);
