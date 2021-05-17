@@ -37,8 +37,12 @@ body{
   text-align: center;
 }
 .logo img {
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4em;
+}
+
+.logo.color_change_l{
+  filter: invert(1);
 }
 
 /*Styling Links*/
@@ -220,6 +224,7 @@ li a.color_change{
 
 .home_page_image{
   background-image: url("./assets/images/degree.svg");
+  opacity: 0.5;
   height: 100vh;
   background-position: center;
   background-repeat: repeat;
