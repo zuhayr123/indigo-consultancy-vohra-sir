@@ -39,7 +39,7 @@ body{
 .nav-links{
   display: flex;
   list-style: none; 
-  width: 88vw;
+  /* width: 88vw; */
   padding: 0 0.7vw;
   justify-content: right;
   align-items: center;
