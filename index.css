@@ -144,7 +144,7 @@ li a.color_change{
   .nav-links{
       position: fixed;
       background: rgba(102, 51, 153, 0.6);
-      height: 100vh;
+      height: 100%;
       width: 100%;
       margin-top: 80vh;
       margin-left: -3.9vw;
@@ -219,13 +219,17 @@ li a.color_change{
 }
 
 .container-fluid{
+  background-image: url("./assets/images/background.svg");
   background-color: rgba(102, 51, 153, 0.1);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
-.home_page_image{
-  background-image: url("./assets/images/background.svg");
+.home_page_last{
+  background-image: url("./assets/images/about_us.svg");
   opacity: 1;
-  height: 100vh;
+  min-height: 100%;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
