@@ -1,0 +1,139 @@
+.backgroundStatic{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -200;
+  }
+  .setBackGround{
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    height: 100vh;
+    color: white;
+    /* align-items: center; */
+    justify-content: center;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  
+  .centerAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+  }
+  
+  .alignLeft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: whitesmoke;
+  }
+  
+  .fontForTitle{
+    font-family: 'Cairo', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .fontForSubText{
+    font-family: 'Cairo', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: #1b1b1b;
+  }
+  
+  .fontForSubSubText{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: whitesmoke;
+  }
+  
+  .fontSmallSetBold{
+  margin-top: 3vh;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  }
+  
+  .fontSmallSetBolder{
+  margin-top: 3vh;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  }
+  
+  .padding{
+    padding-top: 5vh;
+  }
+  
+  .paddinglow{
+    padding-top: 2vh;
+  }
+  
+  .paddingHigh{
+    padding-top: 10vh;
+  }
+  
+  .margin{
+    padding-top: 5vh;
+  }
+  
+  .marginLow{
+    padding-top: 2vh;
+  }
+  
+  .marginHigh{
+    padding-top: 10vh;
+  }
+  
+  
+  .fa {
+  float: right;
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+  color: #4267B2 !important;
+  }
+  
+  .fa-twitter {
+  background: #757575;
+  color: white;
+  }
+  
+  .fa-google {
+  background: #757575;
+  color: white;
+  }
+  
+  .fa-linkedin {
+  color: #2867B2 !important;
+  }
+  
+  .fa-youtube {
+  color: #FF0000 !important;
+  }
+  
+  .fa-instagram {
+  background: #757575;
+  color: white;
+  }
