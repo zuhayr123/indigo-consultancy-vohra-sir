@@ -143,10 +143,10 @@ li a.color_change{
   }
   .nav-links{
       position: fixed;
-      background: rgba(102, 51, 153, 0.6);
-      height: 100%;
+      background: rgba(102, 51, 153, 0.95);
+      height: 100vh;
       width: 100%;
-      margin-top: 80vh;
+      margin-top: 39vh;
       margin-left: -3.9vw;
       justify-content: space-evenly;
       flex-direction: column;
