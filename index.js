@@ -14,6 +14,10 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle("toggle");
 });
 
+// linksa.addEventListener('click', ()=>{
+//   navLinks.classList.toggle("open");
+// })
+
 $(document).ready(function () {
   $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 20) {
