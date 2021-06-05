@@ -114,6 +114,10 @@
   .fa-facebook {
   color: #4267B2 !important;
   }
+
+  .fa-instagram {
+    color: red !important;
+    }
   
   .fa-twitter {
   background: #757575;
@@ -131,9 +135,4 @@
   
   .fa-youtube {
   color: #FF0000 !important;
-  }
-  
-  .fa-instagram {
-  background: #757575;
-  color: white;
   }
