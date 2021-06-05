@@ -459,3 +459,35 @@ html, body {
 	background-color: #663399 !important;
 	color: white;
 }
+
+.fa {
+  float: right;
+  
+  font-size: 30px !important;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: -5px 2px !important;
+  color:#FFF !important;
+  border-radius: 50%;
+  }
+  
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px !important;
+	right:60px !important;
+	background-color:#25d366;
+	color:#FFF !important;
+	border-radius:50px;
+	text-align:center !important;
+  font-size:30px !important;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
